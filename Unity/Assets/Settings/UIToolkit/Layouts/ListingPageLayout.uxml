@@ -4,7 +4,6 @@
     <Style src="project://database/Assets/Settings/UIToolkit/Styles/Shared/SharedPageStyles.uss?fileID=7433441132597879392&amp;guid=7a5869713836cc542bed845677c26054&amp;type=3#SharedPageStyles" />
     <Style src="project://database/Assets/Settings/UIToolkit/Styles/ListingPageStyles.uss?fileID=7433441132597879392&amp;guid=1347557031ea02041bf5124a449e8d3a&amp;type=3#ListingPageStyles" />
     <ui:VisualElement name="RootContainer" class="container" style="flex-grow: 1;">
-        <ui:Button text="Next Page" name="NextPageButton" />
         <ui:VisualElement name="ContentLayer" class="layer content-layer">
             <ui:VisualElement name="CenterContainer" class="container center-container" style="flex-grow: 1; flex-direction: column;">
                 <ui:Label text="Listing" name="TitleLabel" class="h1" />
