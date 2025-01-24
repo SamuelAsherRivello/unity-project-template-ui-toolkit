@@ -1,0 +1,6 @@
+@import url("unity-theme://default");
+
+@import url("/Assets/Settings/UIToolkit/Styles/Global/GlobalStyles.uss");
+@import url("/Assets/Settings/UIToolkit/Styles/Global/LightStyles.uss");
+
+VisualElement {}

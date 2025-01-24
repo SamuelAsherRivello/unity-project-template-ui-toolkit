@@ -1,0 +1,8 @@
+.small-container {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+}
+
+.label {
+}

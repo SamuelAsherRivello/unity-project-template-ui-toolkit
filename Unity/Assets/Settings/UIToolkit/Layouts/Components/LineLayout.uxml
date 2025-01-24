@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Settings/UIToolkit/Styles/Components/LineStyles.uss?fileID=7433441132597879392&amp;guid=2f5b466e55bd8844ebe2987aeacd3d12&amp;type=3#LineStyles" />
+    <engine:VisualElement name="Line" class="line" style="flex-grow: 1;" />
+</engine:UXML>

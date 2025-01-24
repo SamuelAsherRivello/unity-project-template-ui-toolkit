@@ -1,0 +1,12 @@
+.list {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: stretch;
+    align-content: stretch;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+
+----------------------
+
+WORKFLOW: PROS
+* Global styles (e.g. all layouts)
+* Shared styles (e.g. all page layouts)
+* Unshared styles (e.g. layout specific)
+* Excellent cascading of styles. 
+* Excellent theming (dark is default at **BOTH** edit-time and runtime)
+* Excellent use of UI Builder (100% proper preview of all layout, styles, variables... except "pending")
+
+WORKFLOW: CONS
+* (None)
+
+WORKFLOW: PENDING
+* How to auto-complete when entering CUSTOM VARIABLES in ui builder? Given my particular, CUSTOM file setup, I'm not seeing it.
+
+----------------------
+
+DEMOS: COMPOSABILITY
+* 1. Custom component via C#, UXML, USS = Included in demo. RECOMMENDED as the default workflow. See "ThemeButton" & "ListItem"
+* 2. Custom component via UXML, USS = Included in demo. This is a less desirable alternative. See "Line"
+* 3. Custom component via "Template" = Not included in this demo. It may be worth exploring as a least-desirable alternative.
+
+----------------------
+
+TODO
+* Make a typical localization setup? Perhaps it's out of scope. I have another demo repo for that.
+
+----------------------

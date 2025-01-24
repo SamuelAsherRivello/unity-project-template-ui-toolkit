@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="LineLayout" src="project://database/Assets/Settings/UIToolkit/Layouts/Components/LineLayout.uxml?fileID=9197481963319205126&amp;guid=a6919fbae53002f4986e3d4b12ef0043&amp;type=3#LineLayout" />
+    <Style src="project://database/Assets/Settings/UIToolkit/Styles/Global/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=6ebbbe798c96bf344b8b9360316b9108&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Settings/UIToolkit/Styles/Shared/SharedPageStyles.uss?fileID=7433441132597879392&amp;guid=7a5869713836cc542bed845677c26054&amp;type=3#SharedPageStyles" />
+    <Style src="project://database/Assets/Settings/UIToolkit/Styles/IntroPageStyles.uss?fileID=7433441132597879392&amp;guid=fa0b4e0499b36cd4fb6a5a603554368d&amp;type=3#IntroPageStyles" />
+    <ui:VisualElement name="RootContainer" class="container" style="flex-grow: 1;">
+        <ui:VisualElement name="ContentLayer" class="layer content-layer">
+            <ui:VisualElement name="CenterContainer" class="container center-container" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="LeftContainer" class="container left-container">
+                    <ui:VisualElement name="Logo" class="logo" />
+                </ui:VisualElement>
+                <ui:Instance template="LineLayout" />
+                <ui:VisualElement name="RightContainer" class="container right-container" style="flex-grow: 1; align-self: stretch;">
+                    <ui:Label text="Introduction" name="TitleLabel" class="h1" />
+                    <ui:VisualElement name="Spacer" class="spacer-small" />
+                    <ui:TabView name="TabView" style="flex-shrink: 0;">
+                        <ui:Tab label="AboutTab" name="About01Tab" style="flex-shrink: 0;">
+                            <ui:Label text="About (1/2)" name="AboutLabel" class="h2" />
+                            <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mauris dui, imperdiet eget aliquam id, viverra malesuada enim. Aenean consectetur pellentesque quam ac malesuada. Maecenas ullamcorper nulla at diam eleifend maximus. Donec commodo, magna efficitur hendrerit accumsan, lacus augue gravida quam, sed mollis mi eros sit amet enim." name="BodyLabel" class="body" />
+                            <ui:VisualElement name="Spacer" class="spacer-small" style="flex-grow: 1;" />
+                            <ui:Label text="Form" name="FormLabel" class="h2" />
+                            <ui:VisualElement name="Form" class="form">
+                                <ui:TextField label="First Name:" placeholder-text="Enter..." />
+                                <ui:TextField label="Last Name:" placeholder-text="Enter..." />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Spacer" class="spacer-small" style="flex-grow: 1;" />
+                        </ui:Tab>
+                        <ui:Tab label="MoreTab&#x9;" name="About02Tab" style="flex-shrink: 0;">
+                            <ui:Label text="About (2/2)" name="AboutLabel" class="h2" />
+                            <ui:Label text="Consectetur adipiscing elit. Pellentesque mauris dui, imperdiet eget aliquam id, viverra malesuada enim. Aenean consectetur pellentesque quam ac malesuada. Maecenas ullamcorper nulla at diam eleifend maximus. Donec commodo, magna efficitur hendrerit accumsan, lacus augue gravida quam, sed mollis mi eros sit amet enim. Lorem ipsum dolor sit amet." name="BodyLabel" class="body" />
+                            <ui:VisualElement name="Spacer" class="spacer-small" style="flex-grow: 1;" />
+                            <ui:Label text="Form" name="FormLabel" class="h2" />
+                            <ui:VisualElement name="Form" class="form">
+                                <ui:TextField label="Address 1:" placeholder-text="Enter..." />
+                                <ui:TextField label="Address 2:" placeholder-text="Enter..." select-word-by-double-click="false" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Spacer" class="spacer-small" style="flex-grow: 1;" />
+                        </ui:Tab>
+                    </ui:TabView>
+                    <ui:Button text="Next Section" name="NextSectionButton" />
+                    <ui:Button text="Next Page" name="NextPageButton" />
+                    <RMC.TravelGuide.Components.ThemeButton />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DebugLayer" picking-mode="Ignore" class="layer" />
+    </ui:VisualElement>
+</ui:UXML>

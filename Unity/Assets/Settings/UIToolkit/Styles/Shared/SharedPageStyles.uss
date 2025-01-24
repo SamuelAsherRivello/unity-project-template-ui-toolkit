@@ -1,0 +1,19 @@
+.center-container {
+    background-color: var(--theme-background-color);
+    margin-top: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.content-layer {
+    background-color: rgb(115, 134, 134);
+}
+
+.unity-tab-view > #unity-tab-view__header-container > #unity-tab__header {
+    display: none;
+}

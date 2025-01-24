@@ -1,0 +1,10 @@
+#ThemeButton {
+    flex-grow: 1;
+    min-height: 80px;
+}
+
+#Button {
+    flex-grow: 1;
+    background-color: var(--theme-background-color-inverse);
+    color: var(--theme-font-color-inverse);
+}

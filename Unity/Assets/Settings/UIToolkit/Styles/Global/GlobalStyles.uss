@@ -1,0 +1,54 @@
+.unity-text-element {
+    color: var(--theme-font-color);
+    font-size: 40px;
+    -unity-font-style: normal;
+    -unity-font: initial;
+    -unity-font-definition: url("project://database/Assets/Art/Fonts/Arial.asset?fileID=11400000&guid=842c5f3696fbc2648ad656c14fe7acb8&type=2#Arial");
+    letter-spacing: 3px;
+}
+
+.unity-button {
+    margin-top: 0.5%;
+    background-color: var(--theme-background-color-inverse);
+    color: var(--theme-font-color-inverse);
+}
+
+.unity-text-field {
+    margin-top: 0.5%;
+}
+
+.unity-text-field > #unity-text-input > .unity-text-element {
+    color: rgb(0, 0, 0);
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.content-layer {
+}
+
+.container {
+    flex-grow: 1;
+}
+
+.spacer-small {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.h1 {
+    font-size: 100px;
+}
+
+.body {
+    white-space: pre-wrap;
+}
+
+.h2 {
+    font-size: 60px;
+}
