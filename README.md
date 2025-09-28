@@ -1,4 +1,4 @@
-# Unity Project Template (UI Toolkit Examples)
+# Unity Project Template (UI Toolkit)
 
 This project was cloned from the general <a href="https://github.com/SamuelAsherRivello/unity-project-template" target="_blank">Unity Project Template<a/>. 
 
