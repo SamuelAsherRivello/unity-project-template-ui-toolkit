@@ -1,5 +1,4 @@
-
-# Unity UI Toolkit Styles Demo
+# Unity Project Template (UI Toolkit Examples)
 
 This project was cloned from the general <a href="https://github.com/SamuelAsherRivello/unity-project-template" target="_blank">Unity Project Template<a/>. This repo is updated to focus on best practices, specifically for UI Toolkit workflows.
 
